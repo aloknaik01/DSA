@@ -1,5 +1,12 @@
 package Pattern.pattern.inverted;
 
+//
+//        *********
+//         *     *
+//          *   *
+//           * *
+//            *
+
 public class HollowINvertedIncStar {
     public static void main() {
         System.out.println("Enter no of rows");
