@@ -8,6 +8,8 @@ public class SolidDiamond {
         int space =  n/2;
         int star = 1;
 
+        if(n%2==0) n+=1;
+
 
         for(int i=1; i<=n; i++)
         {
