@@ -4,10 +4,20 @@ import java.time.LocalDate;
 
 public class LeapYearCount {
     static void main() {
-    int currentYear = LocalDate.now().getYear();
+
+
+        int currentYear = LocalDate.now().getYear();
+
+        //By Loop
         System.out.println("There is total " + countLeapYearByLoop(currentYear)
         + " no of leap year till " + currentYear);
+
+        //By Formula
+        System.out.println("There is total " + countLeapYearByLoop(currentYear)
+                + " no of leap year till " + currentYear);
     }
+
+
 
     //by using for loop
     static int countLeapYearByLoop(int currentYear)
@@ -20,5 +30,12 @@ public class LeapYearCount {
         }
 
         return count;
+    }
+
+
+    //by using Formula
+    static  int countLeapYearByFormula(int currentYear)
+    {
+        return ((currentYear/4) - (currentYear/100) + (currentYear/400));
     }
 }
