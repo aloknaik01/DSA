@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Arrays;
 
-public class IncNArrayByRecur {
+public class DescNArrayByRecur {
     public static void main() {
         System.out.println("Enter array size");
         int n  = new java.util.Scanner(System.in).nextInt();
