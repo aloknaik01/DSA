@@ -7,14 +7,14 @@ public class DescNArrayByRecur {
         System.out.println("Enter array size");
         int n  = new java.util.Scanner(System.in).nextInt();
         int arr[] = new int[n];
-        int res[] = incNArrayByRecur(arr, 0, n);
+        int res[] = descNArrayByRecur(arr, 0, n);
         System.out.println(Arrays.toString(res));
     }
 
-    static int[] incNArrayByRecur(int a[], int index, int n){
+    static int[] descNArrayByRecur(int a[], int index, int n){
 
         if(index > a.length-1) return a;
         a[index] = n;
-        return incNArrayByRecur(a, ++index,--n);
+        return descNArrayByRecur(a, ++index,--n);
     }
 }
