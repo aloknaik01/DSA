@@ -5,6 +5,7 @@ public class HorizontalStarPattern {
 
        System.out.println("Enter  a number");
        int n = new java.util.Scanner(System.in).nextInt();
+//       horizontalStarPattern(n);
        horizontalStarPattern(n);
     }
 
@@ -15,5 +16,12 @@ public class HorizontalStarPattern {
             System.out.print("* ");
         }
 
+    }
+
+    static void horizontalStarPatternRecur(int n)
+    {
+        if(n==0) return;
+        System.out.println(" *");
+        horizontalStarPattern(--n);
     }
 }
