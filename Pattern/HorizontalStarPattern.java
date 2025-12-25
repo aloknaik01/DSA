@@ -5,7 +5,7 @@ public class HorizontalStarPattern {
 
        System.out.println("Enter  a number");
        int n = new java.util.Scanner(System.in).nextInt();
-//       horizontalStarPattern(n);
+       horizontalStarPattern(n);
        horizontalStarPatternRecur(n);
    }
 
