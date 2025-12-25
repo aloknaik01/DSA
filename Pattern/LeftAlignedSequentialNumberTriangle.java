@@ -2,6 +2,14 @@ package Pattern;
 
 public class LeftAlignedSequentialNumberTriangle {
     public static void main() {
+
+//        Enter no of Rows
+//        5
+//        1
+//        1 2
+//        1 2 3
+//        1 2 3 4
+//        1 2 3 4 5
         System.out.println("Enter no of Rows");
         int row = new java.util.Scanner(System.in).nextInt();
         leftAlignedSequentialNumberTriangle(row);
