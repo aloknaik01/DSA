@@ -5,10 +5,10 @@ public class SquareStarPattern {
 
         System.out.println("Enter no of row");
         int n = new java.util.Scanner(System.in).nextInt();
-              star(n);
+        squareStarPattern(n);
     }
 
-    static void star(int row)
+    static void squareStarPattern(int row)
     {
         int col = row;
         for(int i=1; i<=row; i++)
@@ -20,4 +20,5 @@ public class SquareStarPattern {
             System.out.println();
         }
     }
+
 }
