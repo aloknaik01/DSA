@@ -5,10 +5,10 @@ public class HorizontalStarPattern {
 
        System.out.println("Enter  a number");
        int n = new java.util.Scanner(System.in).nextInt();
-       straight(n);
+       horizontalStarPattern(n);
     }
 
-    static void straight(int n)
+    static void horizontalStarPattern(int n)
     {
         for(int i=1; i<=n; i++)
         {
