@@ -6,8 +6,8 @@ public class HorizontalStarPattern {
        System.out.println("Enter  a number");
        int n = new java.util.Scanner(System.in).nextInt();
 //       horizontalStarPattern(n);
-       horizontalStarPattern(n);
-    }
+       horizontalStarPatternRecur(n);
+   }
 
     static void horizontalStarPattern(int n)
     {
@@ -21,7 +21,7 @@ public class HorizontalStarPattern {
     static void horizontalStarPatternRecur(int n)
     {
         if(n==0) return;
-        System.out.println(" *");
+        System.out.print("* ");
         horizontalStarPattern(--n);
     }
 }
