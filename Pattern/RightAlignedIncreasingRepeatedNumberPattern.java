@@ -1,6 +1,6 @@
 package Pattern;
 
-public class rightAlignedIncreasingRepeatedNumberPattern {
+public class RightAlignedIncreasingRepeatedNumberPattern {
 
 //    Enter no of row
 //    5
