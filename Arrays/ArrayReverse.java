@@ -13,7 +13,7 @@ int res[] =  rev(arr, 0, arr.length-1);
     {
         if(start < 0) return a;
         if(end >= a.length) return a;
-        while(start <= end)
+        while(start >= end)
         {
             int temp = a[start];
             a[start] = a[end];
