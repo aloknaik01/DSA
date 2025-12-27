@@ -3,7 +3,7 @@ package Arrays;
 public class FindMissingEle {
   public  static void main() {
 
-        int arr[] = {1,3,4,5,6,7,8};
+        int arr[] = {12,11,14,16,13,15};
         int res = findMissingEle(arr);
         System.out.println(res);
     }
@@ -21,4 +21,7 @@ public class FindMissingEle {
         int missingNO = ((max*(max+1))/2) - actual;
         return missingNO;
     }
+
+
+
 }
